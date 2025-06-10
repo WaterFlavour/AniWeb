@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'MontserratAlt1';
+  src: url('./assets/fonts/MontserratAlt1-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: 'MontserratAlt1', sans-serif;
+  background-color: #DBD7D4;
+}
+
+.container {
+  position: absolute;
+  top: 25%;
+  /* 25% from the top = 75% from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #333;
+}
